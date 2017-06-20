@@ -1,0 +1,208 @@
+@font-face {
+	font-family: Roboto-ItalicLight;
+	src: url(fonts/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: AxisExtrabold;
+	src: url(fonts/Axis-Extrabold.otf);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: #f1f1f1;
+}
+
+.navbar-brand {
+	color: #333;
+}
+
+.nav-link {
+	color: #333;
+}
+
+.airplane {
+	position: absolute;
+	opacity: 0.5;
+	z-index: 0;
+}
+
+.text {
+	font-size: 25px;
+	color: #5d5d5d;
+	width: 450px;
+	z-index: 5;
+}
+
+.q {
+	font-size: 35px;
+	color: #5d5d5d;
+	width: 550px;
+	font-weight: bold;
+}
+
+.cap {
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.head {
+	display: flex;
+	height: 800px;
+}
+
+.ph {
+	margin-top: 100px;
+}
+
+.p {
+	z-index: 15 !important;
+}
+
+.main-head {
+	background: #f1f1f1;
+}
+
+.main-head:nth-child(3) {
+	background: #fff;
+}
+
+.table-e {
+	display: flex;
+	margin-top: -200px;
+	margin-left: -80px;
+}
+
+.e {
+	display: flex;
+	width: 200px;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	color: #333;
+	font-weight: bold;
+}
+
+.act {
+	display: flex;
+	justify-content: center;
+	font-size: 45px;
+	color: red;
+	font-weight: bold;
+}
+
+.cont {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background: linear-gradient(to top, #4e96c2, #56bf69);
+	height: 500px;
+}
+
+.rov {
+	display: flex;
+	justify-content: center;
+}
+
+.plus {
+	font-size: 125px;
+	margin-top: 50px;
+}
+
+.sbp {
+	margin-top: -25px;
+	font-size: 20px;
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.pb {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.products .pb {
+	background: #fff;
+	border: 1px #fafafa solid;
+	border-radius: 5px;
+}
+
+.char div:nth-child(1) {
+	text-align: center;
+}
+
+.char div:nth-child(2) {
+	text-align: center;
+	font-size: 30px;
+}
+
+.char {
+	width: 300px;
+	font-weight: lighter;
+}
+
+.charactr {
+	height: 1050px;
+	background: #f1f1f1;
+}
+
+.products {
+	display: flex;
+	justify-content: space-around;
+}
+
+.products .pb:first-child {
+	padding-top: 10px;
+}
+
+.buy {
+	width: 100px;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	background: linear-gradient(to top, #2a81bb, #3295d6);
+	margin: 0 auto;
+	border-radius: 7px;
+	padding: 5px;
+	color: #fff;
+	transition: 1s;
+	border: 3px #2a81bb solid;
+	cursor: pointer;
+}
+
+.buy:hover {
+	border: 3px #2a81bb solid;
+	background: linear-gradient(to top, #fff, #fff);
+	color: #2a81bb;
+}
+
+.prod {
+	font-size: 50px;
+	font-weight: lighter;
+	color: ;
+	text-align: center;
+	padding: 25px 0;
+}
