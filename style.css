@@ -19,15 +19,15 @@
 }
 
 .header {
-	background: #f1f1f1;
+	background: gray;
 }
 
 .navbar-brand {
-	color: #333;
+	color: #fff;
 }
 
 .nav-link {
-	color: #333;
+	color: #fff;
 }
 
 .airplane {
@@ -57,9 +57,40 @@
 	justify-content: center;
 }
 
+.desc {
+	color: #000;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.ever .desc {
+	color: #000;
+}
+
+.ever .q {
+	color: #fff;
+}
+
+.ever .text {
+	color: #fff;
+}
+
 .head {
 	display: flex;
 	height: 800px;
+	width: 100%;
+}
+
+.ovh {
+	background: url(images/qwe.jpg);
+	z-index: 10;
+	background-size: cover;
+}
+
+.ever {
+	background: url(images/mountain.jpg);
+	z-index: 10;
+	background-size: cover;
 }
 
 .ph {
@@ -71,11 +102,11 @@
 }
 
 .main-head {
-	background: #f1f1f1;
+	background: #;
 }
 
 .main-head:nth-child(3) {
-	background: #fff;
+	background: #;
 }
 
 .table-e {
@@ -165,7 +196,7 @@
 }
 
 .charactr {
-	height: 1050px;
+	height: 1100px;
 	background: #f1f1f1;
 }
 
@@ -205,4 +236,59 @@
 	color: ;
 	text-align: center;
 	padding: 25px 0;
+}
+
+.pb:first-child .char .buy {
+	margin-top: 50px;
+}
+
+.pb:last-child .char .buy {
+	margin-top: 20px;
+}
+
+.r {
+	line-height: 30px;
+}
+
+.re {
+	margin: 5px 0;
+}
+
+.qwen {
+	margin-bottom: 75px;
+}
+
+.qwen .text {
+	font-size: 18px;
+}
+
+.dev {
+	display: flex;
+	margin: 0 15px;
+}
+
+.dev:nth-child(1) {
+	margin-right: 15px;
+}
+
+
+.dev:nth-child(2) {
+	margin-left: 15px;
+}
+
+.dev div img {
+	opacity: 0.5;
+	margin-right: 15px;
+}
+
+.royet {
+	display: flex;
+}
+.dost {
+	font-size: 50px;
+	font-weight: bold;
+	color: #000;
+	opacity: 0.8;
+	text-align: center;
+	padding: 50px 0;
 }
